@@ -1,0 +1,52 @@
+package com.vishnu.customexception;
+
+public class hierarchy 
+{
+	public void method1() 
+	{int a=1,b=2;
+	int c;
+	c=a/b;
+		
+	}
+	
+	public void method2() 
+	{
+		method1();
+	}
+	
+	public void method3() 
+	{try{
+		method2();
+		int a=1,b=0;
+		int c;
+		c=a/b;
+	}
+	catch(Exception e)
+	{
+		System.out.print(e.getMessage());
+		throw e;
+	}
+	
+	}
+	
+	public void method4() 
+	{
+		method3();
+	}
+	
+	public static void main(String args[]) 
+	{
+		try{
+		hierarchy obj=new hierarchy();
+		obj.method4();
+	}
+	catch(Exception e)
+	{
+		System.out.print(e.getMessage());
+		e.printStackTrace();
+	}
+	}
+	
+	
+
+}

@@ -1,0 +1,32 @@
+
+
+public class myfirst {
+public static void main(String args[])
+
+{int j;
+	System.out.println("here we go");
+	//int i;
+	/*for( int i = 3; i < 6; i++)
+	{
+		do {
+			j=0;
+			System.out.print(" "+j);
+			j++;
+			if (i==j)
+				continue;
+			}
+		while(j!=6);
+		
+		System.out.print("\n");
+	}
+		
+		
+		
+	*/	
+		
+		
+		
+	//System.out.print(i);
+	//System.out.println(-2>>1);
+}
+}

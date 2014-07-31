@@ -1,0 +1,18 @@
+
+public class myfirsttwothree {
+
+	public static void main(String args[])
+
+	{
+		System.out.print("de");
+		for(int i = 0; i < args.length; i++) {
+	        System.out.println(args[i]);
+	        
+	}
+	}
+	
+	
+	
+	
+	
+}

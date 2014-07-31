@@ -1,0 +1,13 @@
+
+
+public class myfirst {
+public static void main(String args[])
+
+{
+	System.out.print(Integer.SIZE);int i;
+	for( i = 0; i < args.length; i++) {
+        System.out.println(args[i]);
+
+}
+}
+}
